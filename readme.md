@@ -15,7 +15,7 @@ A CakePHP Component
 
 Begin by placing the component in your controllers/components/ directory and then adding it to your AppController.
 
-	public $components = array(ShortUrl');
+	public $components = array('ShortUrl');
 
 	public function index() {
 		echo $this->ShortUrl->GoogleUrl(urldecode('http://www.marcelosiqueira.com.br/'));
